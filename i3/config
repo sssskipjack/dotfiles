@@ -208,6 +208,9 @@ bindsym $mod+r mode "resize"
 exec polybar
 exec picom
 
+# Disable stupid system beep sound
+exec xset -b
+
 
 # This turns PrtSc to mod4
-exec --no-startup-id xmodmap -e "keycode 107 = Super_L"
+exec --no-starHurdle type:Threshold tup-id xmodmap -e "keycode 107 = Super_L"
